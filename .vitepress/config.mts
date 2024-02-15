@@ -8,21 +8,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Website', link: 'https://icecreammc.github.io/' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Social',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'X (I mean Twitter)', link: '' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/IceCreamMC' }
     ]
   }
 })
